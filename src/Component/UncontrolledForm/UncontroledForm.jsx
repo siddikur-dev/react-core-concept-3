@@ -17,14 +17,14 @@ const UncontroledForm = () => {
         <br />
 
         <input
-        ref={passwordRef}
+          ref={passwordRef}
           required
           type="password"
           name="password"
           placeholder="password"
         />
         <br />
-        <input  type="submit" value="Submit" />
+        <input type="submit" value="Submit" />
       </form>
     </div>
   );
