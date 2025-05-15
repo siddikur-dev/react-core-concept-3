@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+// Price,Quantity,name validation
 const ProductForm = ({ handleProducts }) => {
   const [error, setError] = useState("");
   const handleOnSubmit = (e) => {
@@ -8,7 +9,7 @@ const ProductForm = ({ handleProducts }) => {
     const price = e.target.price.value;
     const quantity = e.target.quantity.value;
     console.log(name, price, quantity);
-    // Price,Quantity,name
+    // validation
     if (name.length === 0) {
       setError("Please Provide Product Name");
       return;
