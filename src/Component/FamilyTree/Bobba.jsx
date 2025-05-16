@@ -1,4 +1,4 @@
-import React, { giuseContext } from "react";
+import React, { useContext } from "react";
 import "./FamilyTree.css";
 import { moneyContext } from "../../App";
 

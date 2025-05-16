@@ -8,6 +8,7 @@ import ProductManage from "./Component/ProductManagement/ProductManage";
 import UncontroledForm from "./Component/UncontrolledForm/UncontroledForm";
 export const moneyContext = createContext("");
 export const assetContext = createContext("");
+
 const asset = "gold";
 const newAsset = "diamond";
 function App() {
